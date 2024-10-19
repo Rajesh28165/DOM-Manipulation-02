@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.graph-container {
+    margin-top: 20px;
+}
+
+.graph {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bar {
+    background-color: #3498db;
+    color: white;
+    text-align: right;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.bar.price {
+    background-color: #e74c3c;
+}
+
+.bar.rating {
+    background-color: #2ecc71;
+}
+
+.sort-container {
+    margin-bottom: 20px;
+}
+
+.bar-label {
+    display: inline-block;
+    margin-right: 10px;
+}
